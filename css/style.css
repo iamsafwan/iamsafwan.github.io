@@ -1,0 +1,1269 @@
+html {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Alohasummer;
+    src: url(../font/Alohasummer-PKX7r.ttf);
+}
+
+@font-face {
+    font-family: Creamychocolate;
+    src: url(../font/CreamyChocolate-MVpXJ.ttf);
+}
+
+@font-face {
+    font-family: Tropical;
+    src: url(../font/TropicalCountry-51PZj.ttf);
+}
+
+@font-face {
+    font-family: Billiondreams;
+    src: url(../font/BillionDreams-vmgK9.ttf);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+header {
+    position: relative;
+}
+
+.home main {
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+body {
+    color: #e27a7a;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.page {
+    min-height: 100%;
+    /* display: grid; */
+}
+
+nav {
+    /* background: rgba(0, 0, 0, 0.25); */
+    /* background: #ff00cc; */
+    /* fallback for old browsers  */
+    /* background: -webkit-linear-gradient(to right, #ff00cc, #333399); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #ff00cc, #333399); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
+    /* background: rgba(0, 0, 0, 0.30); */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+nav a {
+    font-size: 20px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: seashell;
+    padding: 4px;
+    font-weight: 400;
+    line-height: min(max(1.9vh, 14px), 20px);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.home {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.homeimg {
+    background-image: url(../image/cover/bckgrnd_3000.jpg);
+    background-size: 66vw 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.homeabout {
+    position: absolute;
+    display: block;
+    color: #4c4a48;
+    /* background: url(../image/cover/0.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background: #ef32d9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.homeerror {
+    background-image: url(../image/error/404.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: royalblue;
+}
+
+.homeexperience {
+    background-image: url(../image/cover/under-construction.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: royalblue;
+}
+
+.homeportfolio {
+    background-color: whitesmoke;
+}
+
+.homeportfoliopreview {
+    background-image: url(../image/cover/under-construction.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    color: royalblue;
+}
+
+.homecontact {
+    position: absolute;
+    display: block;
+    color: white;
+    /* 
+                                         height: 560px;
+                                         width: 100%; 
+                                           
+                                            background: url(../image/contact/9.jpg) no-repeat center center fixed; 
+                                        
+                                            
+                                            
+                                            background-size: 100%;
+                                            background-position: center;
+                                            */
+    background: url(../image/cover/contactbackground_3000.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.homeresume {
+    position: absolute;
+    display: block;
+    color: #4c4a48;
+    /* background: url(../image/cover/0.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background-image: linear-gradient( to right, rgba(255, 202, 88, 1) 0%, rgba(139, 73, 255, 1) 100.2%);
+    overflow: hidden;
+}
+
+.signaturehome img {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    max-width: 576px;
+}
+
+.signatureabout img {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.signaturehome {
+    margin-top: 80vh;
+}
+
+.signature {
+    filter: invert(100%);
+}
+
+.signature_responsive {
+    max-width: 100%;
+    height: auto;
+    width: 576px;
+    min-width: 60%;
+}
+
+.credits {
+    background: black;
+    display: flex;
+    margin-left: 20px;
+    ;
+}
+
+.socials img {
+    height: 25px;
+    width: 25px;
+    margin-right: 25px;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background: black;
+}
+
+footer {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 1rem;
+    background: black;
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.leftSide {
+    width: 50%;
+    height: auto;
+    position: relative;
+    display: block;
+    padding-top: 5vh;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+}
+
+.leftSide img {
+    max-width: 100%;
+    width: 38vw;
+    height: auto;
+}
+
+.aboutcontentpage {
+    /* background: rgba(0, 0, 0, 0.30); 
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    display: flow-root; */
+}
+
+.aboutleftside {
+    /* background-color: #fff; */
+    /* margin-top: 25px; */
+    float: left;
+}
+
+.aboutQuesleftside {
+    /* background-color: #fff; */
+    float: right;
+    padding-top: 5px;
+}
+
+.homerightcontent {
+    float: right;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    background: rgba(0, 0, 0, 0.30);
+    height: 100vh;
+    padding-top: 5vh;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+}
+
+.aboutQues {
+    width: 100%;
+    color: black;
+    height: fit-content;
+    float: left;
+    padding-top: 3vh;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+}
+
+.aboutQues h1 {
+    font-size: 3.4vw;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.aboutQues h2 {
+    font-size: 1.7vw;
+    margin-bottom: 14vh;
+}
+
+.aboutQues h3 {
+    font-size: 2.3vw;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutQues p {
+    font-size: 1.2vw;
+}
+
+.homerightcontent h1 {
+    font-size: 5vw;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Tropical;
+}
+
+.homerightcontent h2 {
+    font-size: 2.5vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.homerightcontent p {
+    font-size: 1.5vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.homerightcontent h3 {
+    font-size: 2.0vw;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.homerightcontent h4 {
+    font-size: 1.5vw;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.rightsideabout h1 {
+    font-size: 3.4vw;
+    /* margin: 0; */
+    padding: 0;
+    background: -webkit-linear-gradient(#01c5cd, #DA9289);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rightsideabout h2 {
+    font-size: 1.7vw;
+    /* margin-bottom: 14vh; */
+    color: green;
+}
+
+.rightsideabout h3 {
+    font-size: 2.3vw;
+    margin: 0;
+    padding: 0;
+}
+
+.rightsideabout p {
+    font-size: 1.2vw;
+}
+
+.rightsideabout {
+    /* background-color: #fff; */
+    /* margin-top: 7px; */
+    float: right;
+    /* height: 90vh; */
+}
+
+.rightsideQuesabout {
+    /* background-color: #fff; */
+    margin-top: 5px;
+    float: left;
+}
+
+.rightsideQuesabout h1 {
+    font-size: 1.8vw;
+    margin: 0;
+    padding: 0;
+}
+
+.rightsideQuesabout p {
+    font-size: 1.2vw;
+}
+
+.rightsideQuesabout h2 {
+    font-size: 1.7vw;
+    margin-bottom: 14vh;
+}
+
+.rightsideQuesabout h3 {
+    font-size: 3.4vw;
+    /* margin: 0; */
+    padding: 0;
+    font-size: 2.3vw;
+    margin: 0;
+    padding: 0;
+}
+
+.rightSide {
+    position: relative;
+    display: block;
+    width: 50%;
+    /* color: white; */
+    /* height: 90vh; */
+    padding-top: 5vh;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+}
+
+.contact {
+    /* height: 560px; */
+    position: absolute;
+    width: auto;
+    /* top: 0; */
+    /* left: 35%; */
+}
+
+.portfolio {
+    /* height: 560px; */
+    position: absolute;
+    width: auto;
+    /* top: 0; */
+    /* left: 35%; */
+}
+
+.error {
+    background: url(../image/error/errror1.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+
+.errorcontent a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: black;
+    list-style-type: disc;
+}
+
+.contactcontent {
+    padding-top: 5vh;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+    height: 1vh;
+}
+
+.resumecontent #experience {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+}
+
+.resumecontent #education {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    /* margin-top: 10vh; */
+    margin-bottom: 0;
+}
+
+.resumecontent #skill {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    /* margin-top: 10vh; */
+    margin-bottom: 0;
+}
+
+.resumecontent #achievements {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    /* margin-top: 10vh; */
+    margin-bottom: 0;
+}
+
+.resumecontent {
+    padding-right: 2.5vw;
+    padding-bottom: 3vw;
+    /* padding-top: 5vh; because of new pic  */
+    padding-left: 2.5vw;
+    height: auto;
+    /* -webkit-box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%); */
+    display: none;
+}
+
+.theline {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ff5555, #ff5555) no-repeat left/5px 100%;
+}
+
+.theline #lineicon {
+    margin-left: -18px;
+}
+
+.xP {
+    border: black;
+    border-style: solid;
+    width: 90%;
+    /* background: url(../image/cover/4.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; */
+    /* background: #457b9d; */
+    /* background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-top: 2vh;
+    height: auto;
+    margin-top: -9vh;
+    margin-left: 6vw;
+    color: black;
+    position: relative;
+    display: block;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+    border-radius: 10px;
+}
+
+.vxP {
+    /* background-color: #B5FFFC;
+    background-image: linear-gradient(0deg, #B5FFFC 0%, #08AEEA 100%);
+} */
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.xP h1 {
+    font-size: 2rem;
+    /* text-align: center;
+      margin-left: -6vw; */
+}
+
+.xP h2 {
+    font-size: 1.25rem;
+}
+
+.xP h3 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.qMUL {
+    border: black;
+    border-style: solid;
+    width: 90%;
+    /* background: url(../image/cover/4.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; */
+    /*       
+      background: #f1faee; */
+    /* background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+     */
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-top: 2vh;
+    height: auto;
+    margin-top: -9vh;
+    margin-left: 6vw;
+    color: black;
+    position: relative;
+    display: block;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+    border-radius: 10px;
+}
+
+.qMUL h1 {
+    font-size: 2rem;
+    /* text-align: center;
+      margin-left: -6vw; */
+}
+
+.qMUL h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.qMUL p {
+    font-size: 1rem;
+}
+
+.iU {
+    border: black;
+    border-style: solid;
+    width: 90%;
+    /* background: url(../image/cover/4.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; */
+    /* background: #e76f51; */
+    /* background-color: #2AF598;
+    background-image: linear-gradient(0deg, #2AF598 0%, #52ACFF 100%); */
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-top: 2vh;
+    height: auto;
+    margin-top: -9vh;
+    margin-left: 6vw;
+    color: black;
+    position: relative;
+    display: block;
+    /* color: white; */
+    /* height: 90vh; */
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+    border-radius: 10px;
+}
+
+.iU h1 {
+    font-size: 2rem;
+    /* text-align: center;
+      margin-left: -6vw; */
+}
+
+.iU h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.technicalSkills {
+    border: black;
+    border-style: solid;
+    width: 90%;
+    /* background: url(../image/cover/4.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; 
+      background-size: cover; */
+    /*            background: #f4a261; */
+    /* background-color: #52ACFF;
+    background-image: linear-gradient(0deg, #52ACFF 0%, #FFE32C 100%); */
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-top: 2vh;
+    height: auto;
+    margin-top: -9vh;
+    margin-left: 6vw;
+    color: black;
+    position: relative;
+    display: block;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+    border-radius: 10px;
+}
+
+.technicalSkills h1 {
+    font-size: 2rem;
+    /* text-align: center;
+      margin-left: -6vw; */
+}
+
+.technicalSkills h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.nontechnicalSkills {
+    border: black;
+    border-style: solid;
+    width: 90%;
+    /* background: url(../image/cover/4.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; */
+    /* background: #e9c46a; */
+    /* background-color: #FFE32C;
+    background-image: linear-gradient(0deg, #FFE32C 0%, #21D4FD 100%); */
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-top: 2vh;
+    height: auto;
+    margin-top: -9vh;
+    margin-left: 6vw;
+    color: black;
+    position: relative;
+    display: block;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+    border-radius: 10px;
+}
+
+.nontechnicalSkills h1 {
+    font-size: 2rem;
+    /* text-align: center;
+      margin-left: -6vw; */
+}
+
+.nontechnicalSkills h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.achievement {
+    border: black;
+    border-style: solid;
+    width: 90%;
+    /* background: url(../image/cover/4.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; */
+    /* background: #2a9d8f; */
+    /* background-color: #21D4FD;
+    background-image: linear-gradient(0deg, #21D4FD 0%, #B721FF 100%); */
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-top: 2vh;
+    height: auto;
+    margin-top: -9vh;
+    margin-left: 6vw;
+    color: black;
+    position: relative;
+    display: block;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+    border-radius: 10px;
+}
+
+.achievement h1 {
+    font-size: 2rem;
+    /* text-align: center;
+      margin-left: -6vw; */
+}
+
+.achievement h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.otheractivities {
+    border: black;
+    border-style: solid;
+    width: 90%;
+    /* background: url(../image/cover/4.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; */
+    /* background: #a8dadc; */
+    /* background-color: #B721FF;
+    background-image: linear-gradient(0deg, #B721FF 0%, #3EECAC 100%); */
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-top: 2vh;
+    height: auto;
+    margin-top: -9vh;
+    margin-left: 6vw;
+    color: black;
+    position: relative;
+    display: block;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+    border-radius: 10px;
+}
+
+.otheractivities h1 {
+    font-size: 2rem;
+    /* text-align: center;
+      margin-left: -6vw; */
+}
+
+.otheractivities h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.otheractivities h3 {
+    font-size: 1.0rem;
+    font-weight: normal;
+}
+
+.resumeshowcase {
+    padding-top: 70vh;
+    padding-bottom: 10vh;
+    /* padding-top: 65vh;
+    padding-bottom: 10vh;  pics */
+    margin-left: -5.6%;
+    margin-right: -5.6%;
+    width: auto;
+    height: 95vh;
+    text-decoration: none;
+    /* background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
+    background-color: #21D4FD;
+    background-image: url(../image/cover/resume5.jpg);
+    BACKGROUND-SIZE: COVER;
+    BACKGROUND-POSITION: center;
+    BACKGROUND-REPEAT: no-repeat;
+}
+
+.resumeshowcase a {
+    text-decoration: none;
+    color: white
+}
+
+.resumeshowcase ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    padding: 5px 5px;
+    /* margin: 5px 5px; */
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.resumeshowcase h1 {
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3vw;
+}
+
+#jumpTop {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+    background: url(../image/icons/top.png);
+    background-size: contain;
+}
+
+#jumpTop:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+}
+.portfoliocontent {
+    padding-top: 5vh;
+    padding-right: 2.5vw;
+    padding-bottom: 3vh;
+    padding-left: 2.5vw;
+    height: 1vh;
+}
+.portfoliocontent h2 {
+    text-align: center;
+    font-size: 2.0em;
+    margin-bottom: -3.5vh;
+}
+.portfoliocontent h1 {
+    text-align: center;
+    font-size: 2.0em;
+}
+.portfoliocontent p {
+    text-align: center;
+    margin-top: -1vh;
+    margin-bottom: 5vh;
+}
+.contactcontent h2 {
+    text-align: center;
+    /* margin-bottom: -3.5vh; */
+}
+.contactcontent img {
+    width: 100%;
+    height: 100%;
+    max-width: 5vh;
+    max-height: 5vh;
+    margin: 0;
+    padding: 0;
+    /* max-width: 50px;
+    max-height: 50px; */
+    /* max-width: 5vw;
+      max-height: 6vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh; */
+}
+.contactcontent .cardinfo h1 {
+    text-align: center;
+    font-size: 2.0em;
+    margin: 0;
+    padding: 5px;
+}
+.contactcontent h1 {
+    text-align: center;
+    font-size: 3.0em;
+    margin: 0;
+}
+.contactcontent p {
+    text-align: center;
+    /* margin-top: -1vh; */
+    
+    margin-bottom: 5vh;
+    font-size: 1.2em;
+}
+.cardinfo {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.cardinfo h3 {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+.cardinfo #safwan {
+    border-radius: 50%;
+    border: 2px solid gold;
+    max-width: 280px;
+    max-height: 290px;
+    width: 25vh;
+    height: 25vh;
+}
+.contactcontent .back h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 0;
+}
+.projectinfo {
+    width: auto;
+    height: 100%;
+}
+.projectinfo h3 {
+    text-align: center;
+}
+.projectinfo img {
+    max-width: 280px;
+    max-height: 290px;
+    width: 30vh;
+    height: 30vh;
+}
+.portfoliocontent {
+    background-image: url(../image/portfolio/cloud.png);
+    background-repeat: no-repeat;
+    background-size: 66vw 100%;
+    background-position-x: center;
+    color: black;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    width: 100%;
+    height: 90%;
+    top: 40px;
+    bottom: 0;
+    position: fixed;
+}
+.project {
+    /* max-width: 300px;
+                                        margin: 30px 30px; 
+                                        margin: auto;
+                                        width: 100%; */
+    
+    margin: auto;
+    max-width: 20vw;
+    width: 100%;
+    height: 55vh;
+}
+.contactcard {
+    margin: auto;
+    max-width: 400px;
+    width: 100%;
+    /* old version   place heading and p out of card block and set height: 55vh; */
+    
+    height: 80vh;
+}
+@media only screen and (max-width: 968px) {
+    .homeimg {
+        background-image: url(../image/cover/bckgrnd_2000.jpg);
+    }
+    
+    .homecontact {
+        background: url(../image/cover/contactbackground_2000.jpg);
+        background-size: cover;
+    }
+    
+    .leftSide {
+        float: none;
+        width: 100%;
+    }
+    
+    .rightSide {
+        float: none;
+        width: 100%;
+        font-size: auto;
+    }
+    
+    .rightsideabout {
+        text-align: center;
+        height: auto;
+        padding-top: 0;
+    }
+    
+    .rightsideabout h1 {
+        font-size: 40px;
+    }
+    
+    .rightsideabout h3 {
+        font-size: x-large;
+        text-align: left;
+    }
+    
+    .rightsideabout p {
+        font-size: large;
+        text-align: left;
+    }
+    
+    .rightsideabout h2 {
+        font-size: x-large;
+        text-align: left;
+    }
+    
+    .rightsideQuesabout {
+        text-align: left;
+        height: auto;
+        padding-top: 0;
+    }
+    
+    .rightsideQuesabout h1 {
+        font-size: x-large;
+    }
+    
+    .rightsideQuesabout h3 {
+        font-size: x-large;
+        text-align: left;
+    }
+    
+    .rightsideQuesabout p {
+        font-size: large;
+        text-align: left;
+    }
+    
+    .rightsideQuesabout h2 {
+        font-size: large;
+        margin-bottom: 5vh;
+        text-align: left;
+    }
+    
+    .homerightcontent {
+        padding-top: 30%;
+        padding-bottom: 30%;
+        float: none;
+        text-align: center;
+    }
+    
+    .homerightcontent h1 {
+        font-size: 8vw;
+    }
+    
+    .homerightcontent h2 {
+        font-size: x-large;
+    }
+    
+    .homerightcontent p {
+        font-size: large;
+    }
+    
+    .back img {
+        max-width: 5vh;
+        max-height: 5vh;
+    }
+    
+    .resumeshowcase ul {
+        display: grid;
+    }
+    
+    .resumeshowcase h1 {
+        font-size: 5vw;
+    }
+    
+    .resumeshowcase {
+        padding-top: 25vh;
+        padding-bottom: 25vh;
+    }
+    
+    #jumpTop {
+        right: 10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .homeimg {
+        background-image: url(../image/cover/bckgrnd_1000.jpg);
+    }
+    
+    .homecontact {
+        background: url(../image/cover/contactbackground_1000.jpg) no-repeat center center fixed;
+    }
+    
+    .leftSide {
+        float: none;
+        width: 100%;
+    }
+    
+    .rightSide {
+        float: none;
+        width: 100%;
+        font-size: 5vw;
+    }
+    
+    .rightsideabout {
+        text-align: center;
+        height: auto;
+        padding-top: 0;
+    }
+    
+    .rightsideabout p {}
+    
+    .rightsideabout h2 {
+        text-align: left;
+    }
+    
+    .rightsideabout h3 {
+        text-align: left;
+    }
+    
+    .rightsideQuesabout {
+        text-align: left;
+        height: auto;
+        padding-top: 0;
+    }
+    
+    .rightsideQuesabout h1 {
+        font-size: x-large;
+    }
+    
+    .rightsideQuesabout h3 {
+        font-size: x-large;
+        text-align: left;
+    }
+    
+    .rightsideQuesabout p {
+        font-size: large;
+        text-align: left;
+    }
+    
+    .rightsideQuesabout h2 {
+        font-size: large;
+        margin-bottom: 5vh;
+        text-align: left;
+    }
+    
+    .homerightcontent {
+        float: none;
+        text-align: center;
+        padding-top: 30%;
+        padding-bottom: 30%;
+    }
+    
+    .homerightcontent h1 {
+        font-size: 13vw;
+    }
+    
+    .homerightcontent h2 {
+        font-size: x-large;
+    }
+    
+    .homerightcontent p {
+        font-size: large;
+    }
+    
+    .back img {
+        max-width: 5vh;
+        max-height: 5vh;
+        /* margin: 5px; */
+    }
+    
+    .resumeshowcase ul {
+        display: grid;
+    }
+    
+    .resumeshowcase h1 {
+        font-size: 5vw;
+    }
+    
+    .resumeshowcase {
+        padding-top: 25vh;
+        padding-bottom: 25vh;
+    }
+    
+    .contactcard {
+        height: 80vh;
+    }
+    
+    #jumpTop {
+        right: 10px;
+    }
+}
+
+/* main img .aboutsignature { } */
+
+/*main img{ 
+        display: block;
+        width: 80%;
+        height: 80%;
+        margin: 18% auto 10px; 
+                                       
+        }
+        */

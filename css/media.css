@@ -1,0 +1,281 @@
+    /* .signaturehome {
+        margin-top: 50%;
+    /* } 
+    
+    /*
+    .signaturehome img {
+        width: 38vw;
+    } */
+
+
+/* @media only screen and (min-width: 551px) {
+    .signatureabout img {
+        width: 15vw;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .signatureabout img {
+        width: 20vw;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .signatureabout img {
+        width: 20vw;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .signatureabout img {
+        width: 20vw;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    .signatureabout img {
+        width: 20vw;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .rightSide h2 {
+        margin-bottom: 14vh;
+    }
+    .signatureabout img {
+        margin-bottom: 8%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .signatureabout img {
+        margin-bottom: 10%;
+    }
+    .rightsideabout h2 {
+        margin-bottom: 16vh;
+    }
+    .rightsideabout h2 {
+        font-size: auto;
+    }
+    .rightsideabout h1 {
+        font-size: auto;
+    }
+    .rightsideabout h3 {
+        font-size: auto;
+    }
+    .rightsideabout p {
+        font-size: auto;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .signatureabout img {
+        margin-bottom: 5%;
+    }
+} */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .homeimg {
+        background-image: url(../image/cover/bckgrnd.jpg);
+        background-size: contain;
+        background-size: 100% 100%;
+        /* REMOVE WHEN MULTIPLE PHOTOS ADDED  */
+        background-position: initial;
+    }
+    .homeabout {
+        background-color: #0078D7;
+    }
+    .homeerror {
+        background-image: url(../image/error/404.jpg);
+        background-size: contain;
+        background-size: 100% 100%;
+        /* REMOVE WHEN MULTIPLE PHOTOS ADDED  */
+        background-position: initial;
+    }
+    .homeexperience {
+        background-image: url(../image/cover/under-construction.gif);
+        background-size: contain;
+        background-size: 100% 100%;
+        /* REMOVE WHEN MULTIPLE PHOTOS ADDED  */
+        background-position: initial;
+    }
+    .homeportfolio {
+        background-image: url(../image/cover/under-construction.gif);
+        background-size: contain;
+        background-size: 100% 100%;
+        /* REMOVE WHEN MULTIPLE PHOTOS ADDED  */
+        background-position: initial;
+    }
+    .homecontact {
+        position: absolute;
+        display: block;
+        background: url(../image/contact/10.jpg) no-repeat center center fixed;
+        background-size: contain;
+        background-size: 100% 100%;
+        /* REMOVE WHEN MULTIPLE PHOTOS ADDED  */
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        .homeimg {
+            background-image: url(../image/cover/bckgrnd.jpg);
+            background-size: cover;
+            background-position: bottom;
+        }
+        .homeabout {
+            background-color: #0078D7;
+        }
+        .homeerror {
+            background-image: url(../image/error/404.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .homeexperience {
+            background-image: url(../image/cover/under-construction.gif);
+            background-size: cover;
+            background-position: center;
+        }
+        .homeportfolio {
+            background-image: url(../image/cover/under-construction.gif);
+            background-size: cover;
+            background-position: center;
+        }
+        .homecontact {
+            position: absolute;
+            display: block;
+            background: url(../image/contact/10.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        .homeimg {
+            background-image: url(../image/cover/bckgrnd.jpg);
+            background-size: cover;
+            background-position: bottom;
+        }
+        .homeabout {
+            background-color: #0078D7;
+        }
+        .homeerror {
+            background-image: url(../image/error/404.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .homeexperience {
+            background-image: url(../image/cover/under-construction.gif);
+            background-size: cover;
+            background-position: center;
+        }
+        .homeportfolio {
+            background-image: url(../image/cover/under-construction.gif);
+            background-size: cover;
+            background-position: center;
+        }
+        .homecontact {
+            position: absolute;
+            display: block;
+            background: url(../image/contact/10.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        .homeimg {
+            background-image: url(../image/cover/bckgrnd.jpg);
+            background-size: cover;
+            background-position: bottom;
+        }
+        .homeabout {
+            background-color: #0078D7;
+        }
+        .homeerror {
+            background-image: url(../image/error/404.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .homeexperience {
+            background-image: url(../image/cover/under-construction.gif);
+            background-size: cover;
+            background-position: center;
+        }
+        .homeportfolio {
+            background-image: url(../image/cover/under-construction.gif);
+            background-size: cover;
+            background-position: center;
+        }
+        .homecontact {
+            position: absolute;
+            display: block;
+            background: url(../image/contact/10.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    }
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .homeimg {
+            background-image: url(../image/cover/bckgrnd.jpg);
+            background-size: cover;
+            background-position: bottom;
+        }
+        .homeabout {
+            background-color: #0078D7;
+        }
+        .homeerror {
+            background-image: url(../image/error/404.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .homeexperience {
+            background-image: url(../image/cover/under-construction.gif);
+            background-size: cover;
+            background-position: center;
+        }
+        .homeportfolio {
+            background-image: url(../image/cover/under-construction.gif);
+            background-size: cover;
+            background-position: center;
+        }
+        .homecontact {
+            position: absolute;
+            display: block;
+            background: url(../image/contact/10.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    }
+    @media only screen and (min-width: 1001px) {
+        nav {
+            text-align: right;
+            padding: 2vh 2.5vw 2vh;
+        }
+        .home nav a {
+            font-size: min(max(3vh, 20px), 30px);
+        }
+    }
+    @media only screen and (max-width: 760px) {
+        nav {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+        }
+    }

@@ -1,0 +1,62 @@
+.projectbutton {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projectbutton a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.projectbutton a span {
+    position: relative;
+    z-index: 2;
+}
+
+.projectbutton a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    /* background: #E81123; */
+    transition: all .35s;
+}
+
+.projectbutton a:hover {
+    color: #fff;
+}
+
+.projectbutton a:hover:after {
+    width: 100%;
+}
+
+.project1 a:after {
+    background: #E81123;
+}
+
+.project2 a:after {
+    background: #00B7C3;
+}
+
+.project3 a:after {
+    background: #515C6B;
+}
+
+.project4 a:after {
+    background: #0063B1;
+}

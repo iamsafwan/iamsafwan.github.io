@@ -1,0 +1,124 @@
+/* .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap .button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.wrap .button:hover,
+.button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+}
+
+.wrap button:hover::before,
+button:focus::before {
+    opacity: 1;
+}
+
+.wrap button::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap button:hover::after,
+button:focus::after {
+    animation: none;
+    display: none;
+}
+
+@media only screen and (max-width: 968px) {
+    .wrap .button {
+        min-width: 100px;
+        min-height: 30px;
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .wrap .button {
+        min-width: 100px;
+        min-height: 30px;
+        font-size: 2vw;
+    }
+}
+
+
+credits to :  https://codepen.io/mccombsc/pen/ZEzxWPy */
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%)
+}
+
+.button {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 968px) {
+    .wrap .button {
+        min-width: 100px;
+        min-height: 30px;
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .wrap .button {
+        min-width: 100px;
+        min-height: 30px;
+        font-size: 2vw;
+    }
+}
+
+
+/* credits :  https://cssgradient.io/gradient-backgrounds/ */

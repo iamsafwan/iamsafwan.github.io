@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Error | SZK</title>
+    <!-- <link rel = "icon" href = 
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
+        type = "image/x-icon"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/frame.css">
+</head>
+
+<body class="home homeerror">
+    <div class="page-container rows">
+        <header>
+            <!-- add aria for name of page -->
+            <nav>
+                <a href="\index.html"> Home </a>
+                <a href="\resume.html"> Resume </a>
+                <a href="\portfolio.html"> Portfolio </a>
+                <a href="\about.html"> About </a>
+
+            </nav>
+        </header>
+
+        <main>
+            <!-- <div class="rightSide">
+                <div class="errorcontent">
+                    <h1> Awww Snap!!!</h1>
+                    <h3> I looked everywhere for this page</h3>
+                    <h3> ERROR 404</h3>
+
+                    <p>But maybe I can still help you find</p>
+                    <p>Are you looking for:</p>
+                    <ul>
+                        <li><a href="\experience.html"> Experiences </a></li>
+                        <li><a href="\portfolio.html"> Portfolio </li>
+                <li><a href="\about.html"> About </a></li>
+                    </ul>
+                </div> -->
+
+
+            <!-- 
+                <div class="signature signatureabout">
+                    <img id="aboutsignature" src="image/logo/Logo transparent - Copy.png">
+                </div>
+            </div> -->
+
+
+
+
+
+        </main>
+
+        <footer>
+            <div class="credits">
+                <p>© 2021 Safwan Zubair Khan. All Rights Reserved </p>
+            </div>
+
+        </footer>
+    </div>
+    <!-- cls page-container -->
+
+    <script type="text/javascript">
+        let currentYear = new Date().getFullYear();
+        const dataYear = document.querySelector('[data-year]');
+        dataYear.innerHTML = currentYear;
+
+        var externalLink = document.querySelectorAll('a[href^="http"]');
+        var i;
+        for (i = 0; i < externalLink.length; i++) {
+            externalLink[i].setAttribute("target", "_blank");
+        }
+    </script>
+
+
+</body>
+
+</html>

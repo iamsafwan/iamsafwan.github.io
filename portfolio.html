@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Portfolio | SZK</title>
+    <!-- <link rel = "icon" href = 
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
+        type = "image/x-icon"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/frame.css">
+    <link rel="stylesheet" href="css/card.css">
+</head>
+
+<body class="home homeportfoliopreview">
+    <div class="">
+        <header>
+            <!-- add aria for name of page -->
+            <nav>
+                <a href="\index.html"> Home </a>
+
+                <a href="\resume.html"> Resume </a>
+                <a href="\contact.html"> Contact </a>
+                <a href="\about.html"> About </a>
+
+            </nav>
+        </header>
+
+        <!-- <main>
+            <div class="portfoliocontent">
+                <h1>Intrigued?</h1>
+
+                <p>Here are some of my projects</p>
+
+                <div class="businesscard"></div>
+                <div class="signature signatureabout">
+                    <img id="aboutsignature" src="image/logo/Logo transparent - Copy.png">
+                </div>
+                <div class=" container"> 
+
+                 </div>
+            </div>
+
+
+
+
+
+
+
+        </main> -->
+
+        <footer>
+            <div class="credits">
+                <p>© 2021 Safwan Zubair Khan. All Rights Reserved </p>
+            </div>
+
+        </footer>
+    </div>
+    <!-- cls page-container -->
+
+    <script type="text/javascript">
+        let currentYear = new Date().getFullYear();
+        const dataYear = document.querySelector('[data-year]');
+        dataYear.innerHTML = currentYear;
+
+        var externalLink = document.querySelectorAll('a[href^="http"]');
+        var i;
+        for (i = 0; i < externalLink.length; i++) {
+            externalLink[i].setAttribute("target", "_blank");
+        }
+    </script>
+
+
+</body>
+
+</html>

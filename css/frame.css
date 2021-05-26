@@ -1,0 +1,107 @@
+.photo-frame img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutphoto {
+    max-height: 792px;
+}
+
+.photo-frame {
+    background-color: #FEFEFE;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    box-shadow: 0px 0px 5px 0px #AAA;
+    -moz-box-shadow: 0px 0px 5px 0px #AAA;
+    -webkit-box-shadow: 0px 0px 5px 0px #AAA;
+    transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.photo-frame:hover {
+    box-shadow: 1px 1px 1px 0px #999, 2px 2px 1px 0px #888, 3px 3px 1px 0px #777, 4px 4px 1px 0px #666, 5px 5px 1px 0px #555, 6px 6px 1px 0px #444, 7px 7px 1px 0px #333, 8px 8px 3px 0px #303030;
+    -moz-box-shadow: 1px 1px 1px 0px #999, 2px 2px 1px 0px #888, 3px 3px 1px 0px #777, 4px 4px 1px 0px #666, 5px 5px 1px 0px #555, 6px 6px 1px 0px #444, 7px 7px 1px 0px #333, 8px 8px 3px 0px #303030;
+    -webkit-box-shadow: 1px 1px 1px 0px #999, 2px 2px 1px 0px #888, 3px 3px 1px 0px #777, 4px 4px 1px 0px #666, 5px 5px 1px 0px #555, 6px 6px 1px 0px #444, 7px 7px 1px 0px #333, 8px 8px 3px 0px #303030;
+    transform: translate(-8px, -8px);
+    -ms-transform: translate(-8px, -8px);
+    -moz-transform: translate(-8px, -8px);
+    -webkit-transform: translate(-8px, -8px);
+    -o-transform: translate(-8px, -8px);
+    transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+@media only screen and (min-width: 551px) {
+    .photo-frame img {
+        height: auto;
+        max-height: 100%;
+    }
+    .photo-frame {
+        height: auto;
+        max-height: 100%;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .photo-frame img {
+        height: auto;
+        max-height: 100%;
+    }
+    .photo-frame {
+        height: auto;
+        max-height: 100%;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .photo-frame img {
+        height: auto;
+        max-height: 100%;
+    }
+    .photo-frame {
+        height: auto;
+        max-height: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .photo-frame img {
+        height: auto;
+        max-height: 100%;
+    }
+    .photo-frame {
+        height: auto;
+        max-height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    .photo-frame img {
+        height: auto;
+        max-height: 100%;
+    }
+    .photo-frame {
+        height: auto;
+        max-height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .photo-frame img {
+        height: auto;
+        max-height: 100%;
+    }
+    .photo-frame {
+        height: auto;
+        max-height: 100%;
+    }
+}
