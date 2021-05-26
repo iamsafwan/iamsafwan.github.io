@@ -388,11 +388,13 @@ footer {
 .rightsideabout h3 {
     font-size: 2.3vw;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    color: black;
 }
 
 .rightsideabout p {
     font-size: 1.2vw;
+     color: black;
 }
 
 .rightsideabout {
@@ -412,10 +414,12 @@ footer {
     font-size: 1.8vw;
     margin: 0;
     padding: 0;
+     color: black;
 }
 
 .rightsideQuesabout p {
     font-size: 1.2vw;
+     color: black;
 }
 
 .rightsideQuesabout h2 {
