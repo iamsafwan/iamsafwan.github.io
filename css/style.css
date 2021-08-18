@@ -626,7 +626,7 @@ footer {
 }
 
 .qMUL h2 {
-    margin: 0;
+  
     font-size: 1.25rem;
     font-weight: normal;
 }
@@ -666,6 +666,7 @@ footer {
 
 .iU h1 {
     font-size: 2rem;
+    margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
@@ -783,6 +784,7 @@ footer {
 
 .achievement h1 {
     font-size: 2rem;
+    margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
