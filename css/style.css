@@ -292,7 +292,8 @@ footer {
 .aboutQuesleftside {
     /* background-color: #fff; */
     float: right;
-    padding-top: 5px;
+    padding-top: 70px;
+   /*  padding-top: 5px;  added in v4 for cuc pic ### disable same in mobile mode*/
 }
 
 .homerightcontent {
@@ -420,7 +421,11 @@ footer {
 .rightsideQuesabout p {
     font-size: 1.2vw;
      color: black;
+     margin: 0;
+     /* margin: 0; added in v4 for cuc pic ### disable same in mobile mode*/
 }
+
+
 
 .rightsideQuesabout h2 {
     font-size: 1.7vw;
@@ -1049,6 +1054,17 @@ footer {
     
     height: 80vh;
 }
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 968px) {
     .homeimg {
         background-image: url(../image/cover/bckgrnd_2000.jpg);
@@ -1100,6 +1116,10 @@ footer {
         height: auto;
         padding-top: 0;
     }
+
+
+
+    
     
     .rightsideQuesabout h1 {
         font-size: x-large;
@@ -1113,7 +1133,11 @@ footer {
     .rightsideQuesabout p {
         font-size: large;
         text-align: left;
+        margin: revert;
+        /* margin: revert; added in v4 for cuc pic ### disable same in mobile mode remove line for default view*/
     }
+
+    
     
     .rightsideQuesabout h2 {
         font-size: large;
@@ -1161,6 +1185,17 @@ footer {
     #jumpTop {
         right: 10px;
     }
+
+
+    .aboutQuesleftside {
+      
+        
+        padding-top: 5px;
+       /*  padding-top: 5px;  added in v4 for cuc pic ### disable same in mobile mode*/
+    }
+    
+    
+
 }
 @media only screen and (max-width: 500px) {
     .homeimg {
@@ -1216,6 +1251,8 @@ footer {
     .rightsideQuesabout p {
         font-size: large;
         text-align: left;
+        margin: revert;
+         /* margin: revert; added in v4 for cuc pic ### disable same in mobile mode remove line for default*/
     }
     
     .rightsideQuesabout h2 {
@@ -1268,6 +1305,13 @@ footer {
     
     #jumpTop {
         right: 10px;
+    }
+
+    .aboutQuesleftside {
+      
+        
+        padding-top: 5px;
+       /*  padding-top: 5px;  added in v4 for cuc pic ### disable same in mobile mode*/
     }
 }
 
