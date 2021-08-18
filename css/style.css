@@ -822,6 +822,7 @@ footer {
 }
 
 .otheractivities h1 {
+    margin: 0;
     font-size: 2rem;
     /* text-align: center;
       margin-left: -6vw; */
