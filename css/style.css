@@ -374,7 +374,7 @@ footer {
     font-size: 3.4vw;
     /* margin: 0; */
     padding: 0;
-    background: -webkit-linear-gradient(#01c5cd, #DA9289);
+    background-color: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -382,7 +382,7 @@ footer {
 .rightsideabout h2 {
     font-size: 1.7vw;
     /* margin-bottom: 14vh; */
-    color: green;
+    color: white;
 }
 
 .rightsideabout h3 {
@@ -575,6 +575,7 @@ footer {
 
 .xP h1 {
     font-size: 2rem;
+    margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
@@ -619,11 +620,13 @@ footer {
 
 .qMUL h1 {
     font-size: 2rem;
+    margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
 
 .qMUL h2 {
+    margin: 0;
     font-size: 1.25rem;
     font-weight: normal;
 }
@@ -701,6 +704,7 @@ footer {
 
 .technicalSkills h1 {
     font-size: 2rem;
+    margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
@@ -714,6 +718,7 @@ footer {
     border: black;
     border-style: solid;
     width: 90%;
+
     /* background: url(../image/cover/4.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -739,6 +744,7 @@ footer {
 
 .nontechnicalSkills h1 {
     font-size: 2rem;
+    margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
