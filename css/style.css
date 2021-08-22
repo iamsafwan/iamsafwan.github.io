@@ -586,12 +586,27 @@ footer {
 }
 
 .xP h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    margin:0;
+  
 }
 
 .xP h3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: normal;
+    margin: 0;
+}
+
+.xP li{
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.xP ul{
+    
+    margin: 0;
 }
 
 .qMUL {
@@ -634,6 +649,9 @@ footer {
   
     font-size: 1.25rem;
     font-weight: normal;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .qMUL p {
@@ -679,6 +697,9 @@ footer {
 .iU h2 {
     font-size: 1.25rem;
     font-weight: normal;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .technicalSkills {
@@ -718,6 +739,9 @@ footer {
 .technicalSkills h2 {
     font-size: 1.25rem;
     font-weight: normal;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .nontechnicalSkills {
@@ -760,6 +784,15 @@ footer {
     font-weight: normal;
 }
 
+.nontechnicalSkills ul{
+    margin: 0;
+}
+
+.nontechnicalSkills li{
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
 .achievement {
     border: black;
     border-style: solid;
@@ -794,9 +827,13 @@ footer {
       margin-left: -6vw; */
 }
 
-.achievement h2 {
+.achievement li {
     font-size: 1.25rem;
     font-weight: normal;
+}
+
+.achievement ul {
+    margin: 0;
 }
 
 .otheractivities {
@@ -834,14 +871,23 @@ footer {
 }
 
 .otheractivities h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.otheractivities li {
     font-size: 1.25rem;
     font-weight: normal;
 }
 
-.otheractivities h3 {
-    font-size: 1.0rem;
-    font-weight: normal;
+
+.otheractivities ul {
+    margin: 0;
 }
+
 
 .resumeshowcase {
     padding-top: 70vh;
