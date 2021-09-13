@@ -281,6 +281,26 @@
     backface-visibility: hidden;
 }
 
+.projectcardleft {
+float: left;
+ width: 20vw;
+    height: 55vh;
+    position: relative;
+    display: block;
+ 
+}
+
+.projectcardright {
+float: right;
+ width: 20vw;
+    height: 55vh;
+    position: relative;
+    display: block;
+ 
+}
+
+
+
 .projectcontainer .projectfront {
     display: -webkit-flex;
     display: flex;
@@ -431,3 +451,4 @@ padding:0;
     text-transform: none;
     font-family: 'Playfair Display', serif;
 }
+

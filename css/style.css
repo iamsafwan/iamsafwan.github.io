@@ -1099,7 +1099,21 @@ footer {
     max-width: 20vw;
     width: 100%;
     height: 55vh;
+
+    float: none;
 }
+
+
+.projectright {
+  
+    float: right;
+}
+
+.projectleft {
+  
+    float: left;
+}
+
 .contactcard {
     margin: auto;
     max-width: 400px;
@@ -1248,6 +1262,28 @@ footer {
        /*  padding-top: 5px;  added in v4 for cuc pic ### disable same in mobile mode*/
     }
     
+   .portfoliocontent {
+        position: relative;
+    }
+
+   .projectcontainer {
+        flex-direction: column;
+    }
+
+   .project {
+        max-width: 55%;
+        height: 60vh;
+    }
+
+
+
+   .container .projectcard {
+    margin: 50px;
+    }
+
+   .projectcontainer {
+    margin-top: -30px;
+    }
     
 
 }
@@ -1259,6 +1295,9 @@ footer {
     .homecontact {
         background: url(../image/cover/contactbackground_1000.jpg) no-repeat center fixed;
     }
+
+    
+ 
     
     .leftSide {
         float: none;
@@ -1367,7 +1406,32 @@ footer {
         padding-top: 5px;
        /*  padding-top: 5px;  added in v4 for cuc pic ### disable same in mobile mode*/
     }
+   .portfoliocontent {
+        position: relative;
+    }
+
+   .projectcontainer {
+        flex-direction: column;
+    }
+
+    
+   
+   .project {
+        max-width: 60%;
+        height: 60vh;
+    }
+
+
+   .container .projectcard {
+    margin: 50px;
+    }
+
+   .projectcontainer {
+    margin-top: -30px;
+    }
+    
 }
+
 
 /* main img .aboutsignature { } */
 
