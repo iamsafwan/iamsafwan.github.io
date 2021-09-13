@@ -279,6 +279,7 @@
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
+    padding: 10px;
 }
 
 .projectcardleft {
@@ -328,7 +329,7 @@ float: right;
     -ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
     font-family: 'Arimo', sans-serif;
-    padding-top: 5vh;
+    padding-top: 1vh;
     padding-right: 1vw;
     padding-bottom: 1vh;
     padding-left: 1vw;
