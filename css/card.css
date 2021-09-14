@@ -306,7 +306,7 @@
     /*-webkit-transform: translate3d(0,0,0);*/
     -webkit-backface-visibility: hidden; /* again */
     -webkit-transform: perspective(800px) rotateY(0deg);
-    transform: perspective(800px) rotateY(0deg);
+ 
 }
 
 .projectcontainer .projectback {
@@ -325,8 +325,7 @@
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transform: perspective(800px) rotateY(180deg);
-    transform: perspective(800px) rotateY(180deg);
+  
 
 }
 
