@@ -282,6 +282,24 @@
     padding: 10px;
 }
 
+.projectcardleft {
+float: left;
+ width: 20vw;
+    height: 55vh;
+    position: relative;
+    display: block;
+ 
+}
+
+.projectcardright {
+float: right;
+ width: 20vw;
+    height: 55vh;
+    position: relative;
+    display: block;
+ 
+}
+
 
 
 .projectcontainer .projectfront {
@@ -300,13 +318,6 @@
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden; /* again */
-    background-color: rgb(255 255 255 / 25%);
-
 }
 
 .projectcontainer .projectback {
@@ -322,12 +333,6 @@
     padding-right: 1vw;
     padding-bottom: 1vh;
     padding-left: 1vw;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden; /* again */
-
 }
 
 .projectcard:hover {
@@ -359,11 +364,13 @@
 
 /* 
 .back ul li {
+
 display: block;
 text-align: center;
 margin: 0;
 padding:0;
 }
+
 .back a {
     list-style-type: none;
     display: block;
@@ -372,6 +379,8 @@ padding:0;
     padding:0;
     }
     
+
+
 .back img {
     margin-top: 5px;
     margin-bottom: 15px;
