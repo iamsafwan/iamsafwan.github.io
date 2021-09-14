@@ -303,6 +303,9 @@
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden; /* again */
+
 }
 
 .projectcontainer .projectback {
@@ -321,6 +324,9 @@
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden; /* again */
+
 }
 
 .projectcard:hover {
