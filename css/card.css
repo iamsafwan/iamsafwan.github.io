@@ -282,24 +282,6 @@
     padding: 10px;
 }
 
-.projectcardleft {
-float: left;
- width: 20vw;
-    height: 55vh;
-    position: relative;
-    display: block;
- 
-}
-
-.projectcardright {
-float: right;
- width: 20vw;
-    height: 55vh;
-    position: relative;
-    display: block;
- 
-}
-
 
 
 .projectcontainer .projectfront {
@@ -318,6 +300,7 @@ float: right;
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
+    background-color: rgb(0 0 0 / 20%);
 }
 
 .projectcontainer .projectback {
@@ -333,6 +316,7 @@ float: right;
     padding-right: 1vw;
     padding-bottom: 1vh;
     padding-left: 1vw;
+    background-color: rgb(0 0 0 / 20%);
 }
 
 .projectcard:hover {
