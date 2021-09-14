@@ -3,7 +3,7 @@
     /*bottom: 0; */
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .projectbutton a {
@@ -60,4 +60,42 @@
 
 .project4 a:after {
     background: #0063B1;
+}
+
+@media only screen and (max-width: 580px) {
+.portfoliocontent p {
+ 
+  
+    margin-top: 0px;
+   
+}
+    
+}
+
+@media only screen and (max-width: 968px) {
+
+
+.projectbutton {
+   
+    margin-top: 4vw;
+}
+
+
+.portfoliocontent p {
+ 
+ 
+   height: 100px;
+}
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+.portfoliocontent p {
+ 
+   
+    margin-top: 0px;
+   
+}
+    
 }
