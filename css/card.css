@@ -282,24 +282,6 @@
     padding: 10px;
 }
 
-.projectcardleft {
-float: left;
- width: 20vw;
-    height: 55vh;
-    position: relative;
-    display: block;
- 
-}
-
-.projectcardright {
-float: right;
- width: 20vw;
-    height: 55vh;
-    position: relative;
-    display: block;
- 
-}
-
 
 
 .projectcontainer .projectfront {
@@ -318,6 +300,9 @@ float: right;
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .projectcontainer .projectback {
@@ -333,6 +318,9 @@ float: right;
     padding-right: 1vw;
     padding-bottom: 1vh;
     padding-left: 1vw;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .projectcard:hover {
