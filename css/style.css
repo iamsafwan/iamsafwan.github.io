@@ -990,13 +990,13 @@ footer {
 }
 .portfoliocontent h1 {
     text-align: center;
-    font-size: 2.0em;
-    margin: 10px;
+    font-size: 1.4em;
+    margin: 5px;
 }
 .portfoliocontent p {
     text-align: left;
-    font-size: 1.2em;
-    margin: 10px;
+    font-size: 0.6em;
+    margin: 5px;
 }
 .contactcontent h2 {
     text-align: center;
@@ -1272,7 +1272,7 @@ footer {
 
    .project {
         max-width: 55%;
-        height: 60vh;
+        height: 65vh;
     }
 
 
@@ -1288,11 +1288,22 @@ footer {
 
     .portfoliocontent p {
     
-    font-size: 1.6em;
+    font-size: 0.8em;
   
 }
 
 }
+
+
+@media only screen and (max-width: 580px) {
+.portfoliocontent p {
+ 
+    font-size: 0.7em;
+   
+}
+    
+}
+
 @media only screen and (max-width: 500px) {
     .homeimg {
         background-image: url(../image/cover/bckgrnd_1000.jpg);
@@ -1438,7 +1449,7 @@ footer {
 
 .portfoliocontent p {
  
-    font-size: 1.4em;
+    font-size: 0.7em;
    
 }
     
