@@ -584,9 +584,9 @@ footer {
 } */
     background: rgba(0, 0, 0, 0.2);
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 2rem to xxlarge*/
 .xP h1 {
-    font-size: 2rem;
+    font-size: xx-large;
     margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
@@ -597,15 +597,15 @@ footer {
     margin:0;
   
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 1.25rem to large*/
 .xP h3 {
-    font-size: 1.25rem;
+    font-size: large;
     font-weight: normal;
     margin: 0;
 }
-
+    /* added on 4/12/2022 setting resume experience on phone*/
 .xP li{
-    font-size: 1.25rem;
+       /* font-size: 1.25rem; */
     font-weight: normal;
     margin: 0;
 }
@@ -644,17 +644,17 @@ footer {
     padding-left: 2.5vw;
     border-radius: 10px;
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 2rem to xxlarge*/
 .qMUL h1 {
-    font-size: 2rem;
+    font-size: xx-large;
     margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 1.25rem to large*/
 .qMUL h2 {
   
-    font-size: 1.25rem;
+    font-size: large;
     font-weight: normal;
     margin: 0;
     margin-bottom: 5px;
@@ -693,16 +693,16 @@ footer {
     padding-left: 2.5vw;
     border-radius: 10px;
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 2rem to xxlarge*/
 .iU h1 {
-    font-size: 2rem;
+    font-size: xx-large;
     margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 1.25em to large*/
 .iU h2 {
-    font-size: 1.25rem;
+    font-size: large;
     font-weight: normal;
     margin: 0;
     margin-bottom: 5px;
@@ -735,16 +735,16 @@ footer {
     padding-left: 2.5vw;
     border-radius: 10px;
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 2rem to xxlarge*/
 .technicalSkills h1 {
-    font-size: 2rem;
+    font-size: xx-large;
     margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 1.25rem to large*/
 .technicalSkills h2 {
-    font-size: 1.25rem;
+    font-size: large;
     font-weight: normal;
     margin: 0;
     margin-bottom: 5px;
@@ -778,25 +778,27 @@ footer {
     padding-left: 2.5vw;
     border-radius: 10px;
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 2rem to xx-large*/
 .nontechnicalSkills h1 {
-    font-size: 2rem;
+    font-size: xx-large;
     margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 1.25rem to large*/
 .nontechnicalSkills h2 {
-    font-size: 1.25rem;
+    font-size: large;
     font-weight: normal;
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   aaded padding left :10pc*/
 .nontechnicalSkills ul{
     margin: 0;
+    padding-left: 10px;
+    
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 1.25rem to large*/
 .nontechnicalSkills li{
-    font-size: 1.25rem;
+    font-size: large;
     font-weight: normal;
 }
 
@@ -826,21 +828,22 @@ footer {
     padding-left: 2.5vw;
     border-radius: 10px;
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 2rem to xxlarge*/
 .achievement h1 {
-    font-size: 2rem;
+    font-size: xx-large;
     margin: 0;
     /* text-align: center;
       margin-left: -6vw; */
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 1.25rem to large*/
 .achievement li {
-    font-size: 1.25rem;
+    font-size: large;
     font-weight: normal;
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   aaded padding left :10pc*/
 .achievement ul {
     margin: 0;
+    padding-left: 10px;
 }
 
 .otheractivities {
@@ -869,30 +872,33 @@ footer {
     padding-left: 2.5vw;
     border-radius: 10px;
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 2rem to xxlarge*/
 .otheractivities h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: xx-large;
     /* text-align: center;
       margin-left: -6vw; */
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 1.5rem to large*/
 .otheractivities h2 {
-    font-size: 1.5rem;
+    font-size: x-large;
     font-weight: normal;
     margin: 0;
     margin-bottom: 5px;
     margin-top: 5px;
 }
-
+ /* added on 4/12/2022 setting resume experience on phone   fs- 1.25rem to xxlarge*/
 .otheractivities li {
-    font-size: 1.25rem;
+    font-size: large;
     font-weight: normal;
 }
 
-
+ /* added on 4/12/2022 setting resume experience on phone   aaded padding left :10pc*/
 .otheractivities ul {
     margin: 0;
+    
+    padding-left: 10px;
+
 }
 
 
@@ -1162,6 +1168,10 @@ footer {
     }
     
     .rightsideabout h1 {
+        font-size: 40px;
+    }
+       /* added on 4/12/2022 setting resume experience on phone*/
+    .resumecontent #experience {
         font-size: 40px;
     }
     
