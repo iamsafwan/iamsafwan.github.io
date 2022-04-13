@@ -611,8 +611,9 @@ footer {
 }
 
 
+ /* added on 4/12/2022 setting resume experience on phone   aaded padding left :10pc*/
 .xP ul{
-    
+    padding-left: 10px;
     margin: 0;
 }
 
